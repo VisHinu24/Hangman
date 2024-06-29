@@ -6,8 +6,46 @@
 }
 body{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     background: rgb(95, 82, 100);
+}
+.container{
+    width: 850px;
+    background: white ;
+    display: flex;
+    gap: 70px;
+    align-items: flex-end;
+    padding: 60px 40px;
+    border-radius: 10px;
+
+}
+.hangman_box img{
+    max-width: 270px;
+
+}
+.hangman_box h1{
+    font-size: 1.45rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.word_display{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+}
+.word_display .letter{
+    width: 28px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+.word_display .letter.guessed{
+    border-color: transparent;
+    margin: -40px 0 35px;
 }
