@@ -1,3 +1,3 @@
 # Hangman
 Personalised Hangman game using html ,css , javascript
-Unfinished
+Unfinished,update1
